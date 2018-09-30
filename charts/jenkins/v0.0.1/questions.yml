@@ -1,10 +1,10 @@
 categories:
-- Blog
-- CMS
+  - Blog
+  - CMS
 questions:
-- variable: image.repository
-default: "furikuri/jenkins-lab:latest"
-description: "Select default image"
-type: string
-required: true
-label: Default Image
+  - variable: image.repository
+    default: "furikuri/jenkins-lab:latest"
+    description: "Select default image"
+    type: string
+    required: true
+    label: Default Image
